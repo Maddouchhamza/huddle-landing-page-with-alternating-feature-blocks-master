@@ -9,7 +9,6 @@
   <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <link rel="stylesheet" href="./style.css">
-  <link rel="stylesheet" href="https://i.icomoon.io/public/temp/6149652860/UntitledProject/style.css">
 </head>
 
 <body>
@@ -37,6 +36,7 @@
 
   <main>
     <article>
+      <img src="./images/illustration-grow-together.svg" alt="">
       <section>
         <div class="title">
           Grow Together
@@ -46,9 +46,9 @@
           Think of the insightful conversations you miss out on with a feedback form.
         </div>
       </section>
-      <img src="./images/illustration-grow-together.svg" alt="">
     </article>
     <article>
+      <img src="./images/illustration-flowing-conversation.svg" alt="">
       <section>
         <div class="title">
           Flowing Conversations
@@ -58,9 +58,9 @@
           have just-in-time loading for a more natural flow.
         </div>
       </section>
-      <img src="./images/illustration-flowing-conversation.svg" alt="">
     </article>
     <article>
+      <img src="./images/illustration-your-users.svg" alt="">
       <section>
         <div class="title">
           Your Users
@@ -70,53 +70,64 @@
           This means, once signed in to your app, your users can start chatting immediately.
         </div>
       </section>
-      <img src="./images/illustration-your-users.svg" alt="">
     </article>
     <div class="Ready-to">
       <div class="question">
         Ready To Build Your Community?
       </div>
-      <button class="get-start">
+      <button id="get-start">
         Get Started For Free
       </button>
     </div>
   </main>
 
   <footer>
-    <img src="./images/logo.svg" alt="">
     <div class="Apropos">
       <div class="coordonnes">
-        <img src="./images/icon-location.svg" alt="">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-        incididunt ut labore et dolore magna aliqua
-        <img src="./images/icon-phone.svg" alt="">
-        +1-543-123-4567
-        <img src="./images/icon-email.svg" alt="">
-        example@huddle.com
+        <div class="item">
+          <div class="icone" id="localisation-div">
+            <img src="./images/icon-location.svg" alt="">
+          </div>
+          <div class="txtt">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua
+          </div>
+        </div>
+        <div class="item">
+          <div class="icone">
+            <img src="./images/icon-phone.svg" alt="">
+          </div>
+          <div class="txtt">
+            +1-543-123-4567
+          </div>
+        </div>
+        <div class="item">
+          <div class="icone">
+            <img src="./images/icon-email.svg" alt="">
+          </div>
+          <div class="txtt">
+            example@huddle.com
+          </div>
+        </div>
       </div>
       <div class="other">
-        About Us
-        What We Do
+        About Us<br>
+        What We Do<br>
         FAQ
       </div>
       <div class="other">
-        Career
-        Blog
+        Career<br>
+        Blog<br>
         Contact Us
-      </div>
-      <div class="media">
-        <span class="icon-facebook"></span>
-        <span class="icon-twitter"></span>
-        <span class="icon-instagram"></span>
       </div>
     </div>
     <div class="copyright">
       &copy; Copyright 2018 Huddle. All rights reserved.
     </div>
-    <p class="attribution">
+    <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
+      Coded by <a href="https://github.com/Maddouchhamza">Maddouch Hamza</a>.
+    </div>
   </footer>
 </body>
 
